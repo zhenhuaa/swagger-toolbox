@@ -1,93 +1,100 @@
- html,
- body {
-     height: 100%;
-     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif !important;
- }
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif !important;
+}
 
- .text-red {
-     color: #b90000;
- }
+.text-red {
+  color: #b90000;
+}
 
- .fh {
-     height: 100%;
- }
+.fh {
+  height: 100%;
+}
 
- .op .CodeMirror {
-     background-color: transparent;
-     min-height: 45%;
-     border: 1px dashed #ebebec;
- }
+.op .CodeMirror {
+  background-color: transparent;
+  min-height: 45%;
+  border: 1px dashed #ebebec;
+}
 
- .tinyToast {
-     color: white !important;
-     background: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%) !important;
-     border-radius: 2px !important;
- }
+.tinyToast {
+  color: white !important;
+  background: linear-gradient(
+    -225deg,
+    #3d4e81 0%,
+    #5753c9 48%,
+    #6e7ff3 100%
+  ) !important;
+  border-radius: 2px !important;
+}
 
- .pr-5 {
-     padding-right: 5px;
- }
+.pr-5 {
+  padding-right: 5px;
+}
 
- .author {
-     display: inline-block;
-     color: #333;
-     vertical-align: top;
-     cursor: pointer;
-     background-color: #fff;
-     border: 1px solid #d5d5d5;
-     border-radius: 3px;
-     background-color: #eee;
-     background-image: -webkit-linear-gradient(top, #fcfcfc, #eee);
-     background-image: -moz-linear-gradient(top, #fcfcfc, #eee);
-     background-image: linear-gradient(to bottom, #fcfcfc, #eee);
-     padding: 6px 10px 4px;
-     font-size: 12px;
- }
+.author {
+  display: inline-block;
+  color: #333;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(top, #fcfcfc, #eee);
+  background-image: -moz-linear-gradient(top, #fcfcfc, #eee);
+  background-image: linear-gradient(to bottom, #fcfcfc, #eee);
+  padding: 6px 10px 4px;
+  font-size: 12px;
+}
 
- .github-corner:hover .octo-arm {
-     animation: octocat-wave 560ms ease-in-out
- }
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
 
- @keyframes octocat-wave {
-     0%,
-     100% {
-         transform: rotate(0)
-     }
-     20%,
-     60% {
-         transform: rotate(-25deg)
-     }
-     40%,
-     80% {
-         transform: rotate(10deg)
-     }
- }
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
 
- @media (max-width:500px) {
-     .github-corner:hover .octo-arm {
-         animation: none
-     }
-     .github-corner .octo-arm {
-         animation: octocat-wave 560ms ease-in-out
-     }
- }
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
 
- .editor-region {
-     background: #f4f1f5;
- }
+.editor-region {
+  background: #f4f1f5;
+}
 
- .tile-title h1 {
-     margin: 0
- }
+.tile-title h1 {
+  margin: 0;
+}
 
- .op {
-     box-shadow: 0 0.1rem 0.4rem rgba(69, 77, 93, .3)
- }
+.op {
+  box-shadow: 0 0.1rem 0.4rem rgba(69, 77, 93, 0.3);
+}
 
- .accordion .accordion-item .accordion-body {
-     padding: 0
- }
+.accordion .accordion-item .accordion-body {
+  padding: 0;
+}
 
- .accordion .accordion-item .accordion-header {
-     background: #f0f0f1;
- }
+.accordion .accordion-item .accordion-header {
+  background: #f0f0f1;
+}
+
